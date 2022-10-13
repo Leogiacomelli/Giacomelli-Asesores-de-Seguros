@@ -109,6 +109,11 @@ h2{
     width: 50%;
     margin-bottom: 0px;   
 }
+.botones{
+    border-radius: 8px;
+    margin: 5px;
+    padding: 2px;
+}
 .boletin{
     margin-top: 5vh;
 }
