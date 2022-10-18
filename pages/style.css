@@ -25,7 +25,6 @@
 .Symbol{
     height: 6vh;
     width: 20vh;
-    /* margin-right: 20px; */
     border-radius: 0.3cm;
     padding: 0vh;
 }
@@ -211,15 +210,10 @@ footer{
 .iconos_redes{
     margin-right: 100px;
     color: white;
-    display: flex;
-    flex-direction: column;
+    display: flex;  
 }
 .iconos_redes a{
-    margin: 5px;
-}
-.direccion .super_de_seguros{
-    height: 20vh;
-    width: 30vh;
+    margin: 15px;
 }
 
 
@@ -260,7 +254,7 @@ a:link {
     .Symbol{
         width: 35%;
         height: 5vh;
-        border-radius: 0.3cm; 
+        border-radius: 0.2cm; 
     }
     .slide img{
         height: 35vh;
@@ -299,7 +293,9 @@ a:link {
     .iconos_redes{
         margin-right: 0%;
     }
-   
+   .super_de_seguros{
+    width: 80%;
+   }
       
 }
 
