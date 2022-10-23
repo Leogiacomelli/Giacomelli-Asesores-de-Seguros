@@ -14,20 +14,20 @@
 }
 
 /*Sector de CSS Home*/
-#entrada{
+/* #entrada{
     display: flex;
     justify-content: space-between;
     margin: auto;
-}
-#cuerpo{
+} */
+/* #cuerpo{
     background-image: var(--main-bg-color)
-}
-.Symbol{
+} */
+/* .Symbol{
     height: 6vh;
     width: 20vh;
     border-radius: 0.3cm;
     padding: 0vh;
-}
+} */
 .bar{
     display: flex;
     justify-content: flex-end;
@@ -46,49 +46,49 @@
     height: 75vh;
 
 }
-.testimonios0{
+/* .testimonios0{
     font-family: var(--main-text-font);
     color: var(--main-text-color);
     font-weight: 700;
     text-align: center;
     
-}
-.testimonios{
+} */
+/* .testimonios{
     text-align: center;
-}
+} */
 .testi{
     margin-bottom: 2vh;
 }
-.row{
+/* .row{
     padding: 5vh;
-}
-.texto_testimonios{
+} */
+/* .texto_testimonios{
     color: black;
-}
-.card-body{
+} */
+/* .card-body{
     text-align: center;
-}
-#form {
+} */
+/* #form {
   width: 250px;
   margin: 0 auto;
   height: 50px;
-}
+} */
 
-#form p {
+/* #form p {
   text-align: center;
-}
+} */
 
-#form label {
+/* #form label {
   font-size: 20px;
-}
+} */
 
-input[type="radio"] {
+/* input[type="radio"] {
   display: none;
-}
+} */
 
-label {
+/* label {
   color: grey;
-}
+} */
 
 .clasificacion {
   direction: rtl;
@@ -106,7 +106,7 @@ input[type="radio"]:checked ~ label {
 
 
 /*Sector de CSS Productos*/
-
+/* 
 main{
     background-image: var(--main-bg-color)
  }
@@ -122,9 +122,9 @@ h2{
     height: 40vh;
     margin-bottom: 55px;
     border-radius: 0.2cm;
-}
+} */
 /*Sector de CSS Contacto*/
-.contenedor_contacto{
+/* .contenedor_contacto{
     background-image: var(--main-bg-color);
     padding-bottom: 5vh;
 }
@@ -158,21 +158,22 @@ h2{
 }
 .agradecimiento{
     margin-top: 15px;
-}
+} */
 
 /*Sector de CSS Sobrenosotros*/
-
+/* 
 .contenedor_principal{
     background-image: var(--main-bg-color);
 }
-h2, 
+h2,
 h5{
     font-family: var(--main-text-font);
     font-weight: 700;
-}
-
+} 
+ */
+ 
 /*Sector de CSS FAQ´s*/
-
+/* 
 .preguntas{
     padding: 30px;
 }
@@ -197,33 +198,33 @@ p{
     color: white;
     margin: 0px;
     padding: 10px;
-}
+} */
 
 
 
-footer{
+/* footer{
     border-top: white solid 0.05cm ;
     display: flex;
     justify-content: space-between;
     background-color: #A6A9B4;
-}
-.iconos_redes{
+} */
+/* .iconos_redes{
     margin-right: 100px;
     color: white;
     display: flex;  
 }
 .iconos_redes a{
     margin: 15px;
-}
+} */
 
 
-.location{
+/* .location{
     margin-top: 5px;
     margin-left: 15%;
     height: 120px;
     width: 200px;
     border-radius: 2cm;
-}
+} */
 a:link {
     color: black;
   }

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/*Sector de CSS Home*/
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+.entrada {
+  display: flex;
+  justify-content: space-between;
+  margin: auto; }
+  .entrada .Symbol {
+    height: 6vh;
+    width: 20vh;
+    border-radius: 0.3cm;
+    padding: 0vh; }
+
+footer {
+  align-items: center;
+  border-top: white solid 0.05cm;
+  display: flex;
+  justify-content: space-between;
+  background-color: #A6A9B4; }
+  footer p {
+    color: white; }
+  footer .iconos_redes {
+    margin-right: 100px;
+    color: white;
+    display: flex; }
+    footer .iconos_redes a {
+      margin: 15px; }
+  footer .direccion a:link {
+    color: black; }
+  footer .direccion a:visited {
+    color: purple; }
+  footer .direccion a:focus {
+    border-bottom: 1px solid;
+    background: white; }
+  footer .direccion a:hover {
+    border-bottom: 1px solid;
+    /* background: #CDFEAA; */ }
+  footer .direccion a:active {
+    background: white;
+    /* color: #CDFEAA; */ }
+
+@media screen and (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    footer .iconos_redes {
+      margin-right: 0%; }
+    footer .super_de_seguros {
+      width: 80%; } }
+
+.carousel-item .carousel-caption p {
+  color: white; }
+
+.cuerpo {
+  background-image: linear-gradient(to top, #69497a, #C1CEFE); }
+  .cuerpo .testimonios0 {
+    font-family: "Cinzel", serif;
+    color: #0f0c44;
+    font-weight: 700;
+    text-align: center; }
+  .cuerpo .testimonios {
+    text-align: center; }
+
+.row {
+  padding: 5vh; }
+  .row .card-body {
+    text-align: center; }
+    .row .card-body .texto_testimonios {
+      color: black; }
+    .row .card-body #form {
+      width: 250px;
+      margin: 0 auto;
+      height: 50px;
+      /*     input[type="radio"] {
+                display: none;
+            }
+            label {
+                color: grey;
+                font-size: 20px;
+            }
+            .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+              }
+              
+              label:hover,
+              label:hover ~ label {
+                color: orange;
+              }
+              
+              input[type="radio"]:checked ~ label {
+                color: orange;
+              } */ }
+      .row .card-body #form p {
+        text-align: center; }
+
+/*Sector de CSS Contacto*/
+.contenedor_contacto {
+  background-image: linear-gradient(to top, #69497a, #C1CEFE);
+  padding-bottom: 5vh; }
+  .contenedor_contacto .micontacto {
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    color: #0f0c44;
+    text-align: center; }
+  .contenedor_contacto .contactanos {
+    color: white;
+    border: #e9efef2b solid 3px;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #1f0180, #adadd0);
+    margin: auto;
+    width: 50%;
+    margin-bottom: 0px; }
+    .contenedor_contacto .contactanos .botones {
+      border-radius: 8px;
+      margin: 5px;
+      padding: 2px; }
+    .contenedor_contacto .contactanos .boletin {
+      margin-top: 5vh; }
+    .contenedor_contacto .contactanos .margin {
+      margin: 10px 0px;
+      border-radius: 8px; }
+    .contenedor_contacto .contactanos .agradecimiento {
+      margin-top: 15px; }
+
+/*Sector de CSS FAQ´s*/
+.preguntas {
+  padding: 30px; }
+  .preguntas .intro_preguntas {
+    font-size: 2rem;
+    color: #0f0c44;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px; }
+  .preguntas .intro_parrafo {
+    color: white;
+    text-align: center; }
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-weight: 700; }
+
+h3,
+p {
+  color: #201414;
+  margin: 0px;
+  padding: 10px; }
+
+/*Sector de CSS Productos*/
+main {
+  background-image: linear-gradient(to top, #69497a, #C1CEFE); }
+  main h2 {
+    font-family: "Cinzel", serif;
+    font-weight: 700; }
+  main .imagen_productos {
+    width: 40vh;
+    height: 40vh;
+    margin-bottom: 55px;
+    border-radius: 0.2cm; }
+
+/*Sector de CSS Sobrenosotros*/
+.contenedor_principal {
+  background-image: linear-gradient(to top, #69497a, #C1CEFE); }
+  .contenedor_principal h5 {
+    font-family: "Cinzel", serif;
+    font-weight: 700; }
+
+@media screen and (max-width: 500px) {
+  .Symbol {
+    width: 35%;
+    height: 5vh;
+    border-radius: 0.2cm; }
+  .slide img {
+    height: 35vh; }
+  .carousel-item {
+    height: 30vh; }
+    .carousel-item .w-100 {
+      width: 50vh; }
+  .cuerpo {
+    padding: 2.5vh; }
+    .cuerpo .testimonios {
+      text-align: center; }
+    .cuerpo .testi {
+      padding: 0%; }
+      .cuerpo .testi .valentina {
+        margin-top: 5vh; }
+  main .imagen_productos {
+    width: 20vh;
+    height: 20vh;
+    margin-bottom: 55px;
+    border-radius: 0.2cm; }
+  .contactanos {
+    width: 80%; }
+    .contactanos .margin {
+      width: 80%; }
+    .contactanos textarea {
+      width: 20vh;
+      height: 10vh; }
+  .vendedores {
+    margin-top: 4vh; } }

@@ -1,0 +1,199 @@
+@import 'header';
+@import 'footer';
+@import 'misVariables';
+.carousel-item{
+    .carousel-caption{
+        p{
+            color: white;
+        }
+    }   
+}
+.cuerpo{
+    background-image: $main-bg-color;
+    .testimonios0{
+        font-family: $main-text-font;
+        color: $main-text-color;
+        font-weight: 700;
+        text-align: center;   
+    }
+    .testimonios{
+        text-align: center;
+    }
+}
+.row{
+    padding: 5vh;
+    .card-body{
+        text-align: center;
+        .texto_testimonios{
+            color: black;
+        }
+        #form {
+            width: 250px;
+            margin: 0 auto;
+            height: 50px;
+            p {
+                text-align: center;
+            }
+        /*     input[type="radio"] {
+                display: none;
+            }
+            label {
+                color: grey;
+                font-size: 20px;
+            }
+            .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+              }
+              
+              label:hover,
+              label:hover ~ label {
+                color: orange;
+              }
+              
+              input[type="radio"]:checked ~ label {
+                color: orange;
+              } */
+                
+        }
+    }
+}
+/*Sector de CSS Contacto*/
+.contenedor_contacto{
+    background-image: $main-bg-color;
+    padding-bottom: 5vh;
+    .micontacto{
+        font-family:$main-text-font;
+        font-weight: 700;
+        color: $main-text-color;
+        text-align: center;
+    }
+    .contactanos{
+        color: white;
+        border: #e9efef2b solid 3px;
+        text-align: center;
+        padding: 20px;
+        background-image: linear-gradient(to bottom, #1f0180,#adadd0);
+        margin: auto;
+        width: 50%;
+        margin-bottom: 0px;  
+        .botones{
+            border-radius: 8px;
+            margin: 5px;
+            padding: 2px;
+        } 
+        .boletin{
+            margin-top: 5vh;
+        }
+        .margin{
+            margin: 10px 0px;
+            border-radius: 8px;
+        }
+        .agradecimiento{
+            margin-top: 15px;
+        }
+    }
+}
+/*Sector de CSS FAQ´s*/
+.preguntas{
+    padding: 30px;
+    
+    .intro_preguntas{
+        font-size: 2rem;
+        color: $main-text-color;
+        font-family: $main-text-font;
+        font-weight: 700;
+        text-align: center;
+        margin: 10px;
+    }
+    .intro_parrafo{
+        color: white;
+        text-align: center;
+    }
+}
+h3{
+    font-family: $main-text-font;
+    font-weight: 700;   
+}
+h3,
+p{
+    color: rgb(32, 20, 20);
+    margin: 0px;
+    padding: 10px;
+}
+/*Sector de CSS Productos*/
+
+main{
+    background-image: $main-bg-color;
+    h2{
+        font-family:$main-text-font;
+        font-weight: 700;
+    }
+    .imagen_productos{
+        width: 40vh;
+        height: 40vh;
+        margin-bottom: 55px;
+        border-radius: 0.2cm;
+    }
+ }
+ /*Sector de CSS Sobrenosotros*/
+ .contenedor_principal{
+    background-image: $main-bg-color; 
+    h5{
+        font-family: $main-text-font;
+        font-weight: 700;
+    } 
+}
+
+//Mediaquery para Home
+
+@media screen and (max-width: 500px){
+    .Symbol{
+        width: 35%;
+        height: 5vh;
+        border-radius: 0.2cm; 
+    }
+    .slide img{
+        height: 35vh;
+    }
+    .carousel-item{
+        height: 30vh;
+        .w-100{
+            width:50vh;
+        }
+    }
+    .cuerpo{
+        padding: 2.5vh;
+        .testimonios{
+            text-align: center;
+        }
+        .testi{
+            padding: 0%;
+            .valentina{
+                margin-top: 5vh;
+            }           
+        }
+    }
+    main{
+        .imagen_productos{
+        width: 20vh;
+        height: 20vh;
+        margin-bottom: 55px;
+        border-radius: 0.2cm;
+        }
+    }     
+    .contactanos{
+        width: 80%;
+        .margin{
+            width: 80%;
+        }
+        textarea{
+            width: 20vh;
+            height: 10vh;
+        } 
+    }
+    .vendedores{
+        margin-top: 4vh;
+    }
+}
+
