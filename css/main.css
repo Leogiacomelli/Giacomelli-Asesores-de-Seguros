@@ -50,11 +50,14 @@ footer {
     footer .super_de_seguros {
       width: 80%; } }
 
-.carousel-item .carousel-caption p {
-  color: white; }
+.carousel-item {
+  height: 80vh; }
+  .carousel-item .carousel-caption p {
+    color: white; }
 
 .cuerpo {
-  background-image: linear-gradient(to top, #69497a, #C1CEFE); }
+  background-image: linear-gradient(to top, #69497a, #C1CEFE);
+  padding: 2%; }
   .cuerpo .testimonios0 {
     font-family: "Cinzel", serif;
     color: #0f0c44;
