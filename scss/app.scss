@@ -33,33 +33,43 @@
             width: 250px;
             margin: 0 auto;
             height: 50px;
+          
             p {
-                text-align: center;
+              text-align: center;
             }
-        /*     input[type="radio"] {
-                display: none;
-            }
+          
             label {
-                color: grey;
-                font-size: 20px;
+              font-size: 20px;
             }
-            .clasificacion {
-                direction: rtl;
-                unicode-bidi: bidi-override;
-              }
-              
-              label:hover,
-              label:hover ~ label {
-                color: orange;
-              }
-              
-              input[type="radio"]:checked ~ label {
-                color: orange;
-              } */
-                
-        }
+          }
+          
+          input[type="radio"] {
+            display: none;
+          }
+          
+          label {
+            color: grey;
+          }
+          
+          .clasificacion {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+          }
+          
+          label:hover {
+            color: orange;
+          
+            ~ label {
+              color: orange;
+            }
+          }
+          
+          input[type="radio"]:checked ~ label {
+            color: orange;
+            }           
     }
 }
+
 /*Sector de CSS Contacto*/
 .contenedor_contacto{
     background-image: $main-bg-color;
@@ -77,7 +87,7 @@
         padding: 20px;
         background-image: linear-gradient(to bottom, #1f0180,#adadd0);
         margin: auto;
-        width: 50%;
+        width: 45%;
         margin-bottom: 0px;  
         .botones{
             border-radius: 8px;
@@ -92,6 +102,7 @@
             border-radius: 8px;
         }
         .agradecimiento{
+            color: white;
             margin-top: 15px;
         }
     }
@@ -140,13 +151,22 @@ main{
  }
  /*Sector de CSS Sobrenosotros*/
  .contenedor_principal{
-    background-image: $main-bg-color; 
+    background-image: $main-bg-color;
     h5{
         font-family: $main-text-font;
         font-weight: 700;
-    } 
-}
+    }
 
+    .vendedor{
+        padding: 5px;
+        .card-body{
+            margin-top: 1.5vh;
+        }
+    }
+
+}
+ 
+        
 //Mediaquery para Home
 
 @media screen and (max-width: 500px){
@@ -183,19 +203,29 @@ main{
         margin-bottom: 55px;
         border-radius: 0.2cm;
         }
-    }     
-    .contactanos{
+    } 
+    .contenedor_contacto{
+        padding: 3vh;
+        .contactanos{
         width: 80%;
-        .margin{
+            .margin{
             width: 80%;
-        }
-        textarea{
+            }
+            textarea{
             width: 20vh;
             height: 10vh;
-        } 
-    }
-    .vendedores{
-        margin-top: 4vh;
+            } 
+        }
+    } 
+}
+@media screen and (min-width: 760px){
+    .contenedor_principal{
+        .container{
+            .jefe{
+                width: 50%;
+                height: 50%;
+            }
+        }
     }
 }
 

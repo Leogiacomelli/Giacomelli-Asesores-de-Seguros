@@ -75,29 +75,24 @@ footer {
     .row .card-body #form {
       width: 250px;
       margin: 0 auto;
-      height: 50px;
-      /*     input[type="radio"] {
-                display: none;
-            }
-            label {
-                color: grey;
-                font-size: 20px;
-            }
-            .clasificacion {
-                direction: rtl;
-                unicode-bidi: bidi-override;
-              }
-              
-              label:hover,
-              label:hover ~ label {
-                color: orange;
-              }
-              
-              input[type="radio"]:checked ~ label {
-                color: orange;
-              } */ }
+      height: 50px; }
       .row .card-body #form p {
         text-align: center; }
+      .row .card-body #form label {
+        font-size: 20px; }
+    .row .card-body input[type="radio"] {
+      display: none; }
+    .row .card-body label {
+      color: grey; }
+    .row .card-body .clasificacion {
+      direction: rtl;
+      unicode-bidi: bidi-override; }
+    .row .card-body label:hover {
+      color: orange; }
+      .row .card-body label:hover ~ label {
+        color: orange; }
+    .row .card-body input[type="radio"]:checked ~ label {
+      color: orange; }
 
 /*Sector de CSS Contacto*/
 .contenedor_contacto {
@@ -115,7 +110,7 @@ footer {
     padding: 20px;
     background-image: linear-gradient(to bottom, #1f0180, #adadd0);
     margin: auto;
-    width: 50%;
+    width: 45%;
     margin-bottom: 0px; }
     .contenedor_contacto .contactanos .botones {
       border-radius: 8px;
@@ -127,6 +122,7 @@ footer {
       margin: 10px 0px;
       border-radius: 8px; }
     .contenedor_contacto .contactanos .agradecimiento {
+      color: white;
       margin-top: 15px; }
 
 /*Sector de CSS FAQ´s*/
@@ -171,6 +167,10 @@ main {
   .contenedor_principal h5 {
     font-family: "Cinzel", serif;
     font-weight: 700; }
+  .contenedor_principal .vendedor {
+    padding: 5px; }
+    .contenedor_principal .vendedor .card-body {
+      margin-top: 1.5vh; }
 
 @media screen and (max-width: 500px) {
   .Symbol {
@@ -196,12 +196,17 @@ main {
     height: 20vh;
     margin-bottom: 55px;
     border-radius: 0.2cm; }
-  .contactanos {
-    width: 80%; }
-    .contactanos .margin {
+  .contenedor_contacto {
+    padding: 3vh; }
+    .contenedor_contacto .contactanos {
       width: 80%; }
-    .contactanos textarea {
-      width: 20vh;
-      height: 10vh; }
-  .vendedores {
-    margin-top: 4vh; } }
+      .contenedor_contacto .contactanos .margin {
+        width: 80%; }
+      .contenedor_contacto .contactanos textarea {
+        width: 20vh;
+        height: 10vh; } }
+
+@media screen and (min-width: 760px) {
+  .contenedor_principal .container .jefe {
+    width: 50%;
+    height: 50%; } }
