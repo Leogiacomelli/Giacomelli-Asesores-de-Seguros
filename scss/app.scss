@@ -1,6 +1,12 @@
 @import 'header';
 @import 'footer';
 @import 'misVariables';
+@mixin image-size {
+    width: 40vh;
+    height: 40vh;
+    margin-bottom: 55px;
+    border-radius: 0.2cm;
+}
 .carousel-item{
     height: 80vh;
     .carousel-caption{
@@ -112,7 +118,7 @@
     padding: 30px;
     
     .intro_preguntas{
-        font-size: 2rem;
+        font-size: 3rem;
         color: $main-text-color;
         font-family: $main-text-font;
         font-weight: 700;
@@ -120,6 +126,7 @@
         margin: 10px;
     }
     .intro_parrafo{
+        font-size: 1.5rem;
         color: white;
         text-align: center;
     }
@@ -143,10 +150,7 @@ main{
         font-weight: 700;
     }
     .imagen_productos{
-        width: 40vh;
-        height: 40vh;
-        margin-bottom: 55px;
-        border-radius: 0.2cm;
+        @include image-size;
     }
  }
  /*Sector de CSS Sobrenosotros*/
